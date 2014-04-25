@@ -1,3 +1,3 @@
 @echo off
 
-rd /Q /S c:\mono
+rd /Q /S %output_dir%
