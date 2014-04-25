@@ -1,4 +1,4 @@
-# Minimal bootstrapper for WindowsToolchain
+# Minimal bootstrapper for Windows Toolchain
 
 ## How to bootstrap
 
