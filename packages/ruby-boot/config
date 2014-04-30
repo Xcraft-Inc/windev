@@ -1,0 +1,4 @@
+boot_sys=..\sysroot
+boot_ver=2.0.0-p451
+boot_src=http://dl.bintray.com/oneclick/rubyinstaller/ruby-%boot_ver%-i386-mingw32.7z?direct
+boot_dst=%boot_sys%\ruby.7z
