@@ -1,5 +1,5 @@
 @echo off
-dir
-cd sysroot
-git clone  %boot_src%
-cd ..
+
+pushd %boot_sys%
+git clone %pkg_src%
+popd

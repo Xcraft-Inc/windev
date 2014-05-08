@@ -1,4 +1,3 @@
-boot_sys=..\sysroot
-boot_ver=
-boot_src=git://github.com/oneclick/rubyinstaller.git
-boot_dst=%boot_sys%
+pkg_ver=
+pkg_src=git://github.com/oneclick/rubyinstaller.git
+pkg_dst=%pkg_sys%
