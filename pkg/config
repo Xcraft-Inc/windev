@@ -1,2 +1,2 @@
-boot_sys=sysroot
-pkg_sys=../sysroot
+boot_build=%cd%\build
+boot_sysroot=%cd%\sysroot

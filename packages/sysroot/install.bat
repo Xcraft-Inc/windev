@@ -1,3 +1,4 @@
 @echo off
 
-mkdir %CD%\%boot_sys%
+mkdir %boot_build%
+mkdir %boot_sysroot%

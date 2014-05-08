@@ -1,3 +1,4 @@
 @echo off
 
-rd /Q /S %CD%\%boot_sys%
+rd /Q /S %boot_sysroot%
+rd /Q /S %boot_build%

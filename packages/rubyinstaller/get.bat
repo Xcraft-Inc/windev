@@ -1,5 +1,5 @@
 @echo off
 
-pushd %boot_sys%
+pushd %boot_build%
 git clone %pkg_src%
 popd
