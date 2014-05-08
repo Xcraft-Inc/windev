@@ -1,0 +1,2 @@
+boot_sys=sysroot
+pkg_sys=../sysroot
