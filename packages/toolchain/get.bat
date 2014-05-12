@@ -1,7 +1,5 @@
 @echo off
 
-rem git clone %pkg_src% %pkg_dst%
-
 setlocal
 echo Enter your git.epsitec.ch username:
 set /p username=
