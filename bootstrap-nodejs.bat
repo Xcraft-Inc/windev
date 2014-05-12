@@ -1,6 +1,6 @@
 @echo off
 
-call pkg/remove nodejs
+call pkg/uninstall nodejs
 call pkg/remove sysroot
 call pkg/install sysroot
 
