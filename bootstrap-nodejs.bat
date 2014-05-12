@@ -8,3 +8,5 @@ call pkg/get nodejs
 call pkg/install nodejs
 
 call pkg/get toolchain
+
+call node %boot_sysroot%\toolchain\stage1.js
