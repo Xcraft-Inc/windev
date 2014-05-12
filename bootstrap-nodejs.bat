@@ -6,3 +6,5 @@ call pkg/install sysroot
 
 call pkg/get nodejs
 call pkg/install nodejs
+
+call pkg/get toolchain
