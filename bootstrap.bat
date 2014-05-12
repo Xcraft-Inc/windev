@@ -3,6 +3,7 @@ rem windev.epsitec.local bootstrapper
 
 echo Bootstrap...
 
+call pkg/uninstall rubyinstaller
 call pkg/remove sysroot
 call pkg/install sysroot
 
