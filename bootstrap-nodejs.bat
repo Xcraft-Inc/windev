@@ -1,7 +1,4 @@
 @echo off
-rem windev.epsitec.local bootstrapper
-
-echo Bootstrap...
 
 call pkg/remove nodejs
 call pkg/remove sysroot
