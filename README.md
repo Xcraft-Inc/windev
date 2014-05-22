@@ -4,6 +4,8 @@
 
 call `bootstrap.bat`
 
+By default, the bootstrapper is using the node.js base toolchain.
+
 ## Tree
 
 The `packages` directory is used for the list of tools necessary in order
