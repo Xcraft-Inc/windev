@@ -13,3 +13,5 @@ call pkg/get toolchain
 
 echo [stage0] end of stage0
 call node %boot_sysroot%\toolchain\scripts\stage1.js
+
+cd %boot_sysroot%\toolchain\
