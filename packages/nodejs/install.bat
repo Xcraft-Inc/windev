@@ -3,5 +3,7 @@
 msiexec /i %pkg_dst% INSTALLDIR="%boot_sysroot%\nodejs" /qb
 del /Q %pkg_dst%
 
-where node >NUL 2>&1
-if errorlevel 1 set PATH=%boot_sysroot%\nodejs;%PATH%
+@setlocal enableextensions enabledelayedexpansion
+set pattern=%boot_sysroot%\nodejs
+if "x!PATH:%pattern%=!"=="x%PATH%" set PATH=%boot_sysroot%\nodejs;%PATH%
+endlocal
