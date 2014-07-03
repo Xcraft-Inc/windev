@@ -1,3 +1,4 @@
-pkg_ver=v0.10.28
+pkg_ver=v0.10.29
 pkg_src=http://nodejs.org/dist/%pkg_ver%/x64/node-%pkg_ver%-x64.msi
 pkg_dst=%boot_build%\node.msi
+pkg_guid={1BA2E8E7-7C3E-4D6C-9A8A-569A7918761A}
