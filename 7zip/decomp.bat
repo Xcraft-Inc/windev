@@ -7,7 +7,7 @@ pushd %dirname%
 
 setlocal
 set PATH=C:\Program Files\7-Zip;%PATH%
-7z.exe x -o%2 %1
+7z.exe x -y -o%2 %1
 endlocal
 
 popd
