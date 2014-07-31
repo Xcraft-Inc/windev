@@ -9,6 +9,9 @@ call pkg/install sysroot
 call pkg/get nodejs-bin
 call pkg/install nodejs-bin
 
+call pkg/get mingw-get
+call pkg/install mingw-get
+
 call pkg/get toolchain
 
 echo [stage0] end of stage0
