@@ -8,6 +8,7 @@ call pkg/install sysroot
 
 call pkg/get nodejs-bin
 call pkg/install nodejs-bin
+call pkg/env nodejs-bin
 
 call pkg/get mingw-get
 call pkg/install mingw-get
