@@ -15,6 +15,6 @@ call pkg/install mingw-get
 call pkg/get toolchain
 
 echo [stage0] end of stage0
-call node %boot_sysroot%\toolchain\scripts\stage1.js
+call node %boot_sysroot%\toolchain\scripts\stage1.js "%boot_sysroot%\bin\"
 
 cd %boot_sysroot%\toolchain\
