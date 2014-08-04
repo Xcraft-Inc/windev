@@ -1,3 +1,3 @@
 @echo off
 
-msiexec /x %pkg_guid% /qb
+msiexec /x %pkg_dst% /qb
