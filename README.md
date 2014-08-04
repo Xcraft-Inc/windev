@@ -1,5 +1,11 @@
 # Minimal bootstrapper for Windows Toolchain
 
+## Requirements
+
+ - Install **7-Zip** amd64 in `Program Files`.
+ - Install **Git** i386 in `Program Files (x86)`.
+ - Clone the bootstrapper in a location **without space**.
+
 ## How to bootstrap
 
 call `bootstrap.bat`
