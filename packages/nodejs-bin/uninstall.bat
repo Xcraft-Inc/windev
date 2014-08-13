@@ -1,3 +1,3 @@
 @echo off
 
-msiexec /x %pkg_dst% /qb
+rd /Q /S "%boot_sysroot%/opt/nodejs"
