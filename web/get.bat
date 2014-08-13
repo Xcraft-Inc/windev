@@ -7,7 +7,7 @@ pushd %dirname%
 
 setlocal
 set PATH=C:\Program Files (x86)\Git\bin;%PATH%
-curl -o %2 %1
+curl -L -o %2 %1
 endlocal
 
 popd
