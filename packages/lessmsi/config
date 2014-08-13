@@ -1,0 +1,3 @@
+pkg_ver=v1.1.7
+pkg_src=https://github.com/activescott/lessmsi/releases/download/%pkg_ver%/lessmsi-%pkg_ver%.zip
+pkg_dst=%boot_build%\lessmsi.zip
