@@ -7,4 +7,4 @@ exit /b
 
 :next
 rd /Q /S %boot_build% || rem
-if [errorlevel]==[2] exit /b 0
+if [%errorlevel%]==[2] exit /b 0
