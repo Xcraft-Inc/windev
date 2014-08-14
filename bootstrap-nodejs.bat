@@ -12,9 +12,9 @@ call pkg/install mingw64
 call pkg/get mingw-get
 call pkg/install mingw-get
 
-call pkg/remove lessmsi
-call pkg/get lessmsi
-call pkg/install lessmsi
+call pkg/remove jsmsix
+call pkg/get jsmsix
+call pkg/install jsmsix
 
 call pkg/get nodejs-bin
 call pkg/install nodejs-bin
