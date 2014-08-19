@@ -10,4 +10,6 @@ SET tar_folder="%boot_sysroot%\opt\nodejs"
 for /f %%a IN ('dir %src_folder% /b') do move /Y %src_folder%\%%a %tar_folder%
 rd /S /Q %src_folder%
 
+mkdir "%APPDATA%\npm"
+
 popd
