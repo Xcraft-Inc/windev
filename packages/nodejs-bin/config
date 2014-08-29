@@ -1,3 +1,4 @@
 pkg_ver=v0.10.30
 pkg_src=http://nodejs.org/dist/%pkg_ver%/x64/node-%pkg_ver%-x64.msi
 pkg_dst=%boot_build%\node.msi
+pkg_cache=%boot_cache%\node.msi

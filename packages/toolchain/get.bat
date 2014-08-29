@@ -1,5 +1,7 @@
 @echo off
 
+if exist %pkg_cache% goto cache_
+
 setlocal
 
 git config --global http.sslVerify false
@@ -14,3 +16,14 @@ if x%USERDOMAIN%==xWINDEV (
 
 git clone https://%location%@%pkg_src% %pkg_dst%
 endlocal
+
+
+exit /b
+
+
+
+
+:cache_
+
+call xcopy %pkg_cache% %pkg_dst% /s /e /h /i
+

@@ -3,4 +3,4 @@ rem windev.epsitec.local bootstrapper
 
 echo Bootstrap...
 
-call bootstrap-nodejs
+call bootstrap-nodejs %1

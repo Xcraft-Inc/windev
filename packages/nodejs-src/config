@@ -1,3 +1,4 @@
 pkg_ver=v0.10.30
 pkg_src=http://nodejs.org/dist/%pkg_ver%/node-%pkg_ver%.tar.gz
 pkg_dst=%boot_build%\node.tar.gz
+pkg_cache=%boot_cache%\node-%pkg_ver%

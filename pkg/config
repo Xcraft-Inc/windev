@@ -1,2 +1,3 @@
 boot_build=%cd%\build
 boot_sysroot=%cd%\sysroot
+boot_cache=%cd%\pkg_cache

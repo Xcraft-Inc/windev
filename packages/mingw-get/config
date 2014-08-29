@@ -1,3 +1,4 @@
 pkg_ver=0.6.2
 pkg_src=http://heanet.dl.sourceforge.net/project/mingw/Installer/mingw-get/mingw-get-%pkg_ver%-beta-20131004-1/mingw-get-%pkg_ver%-mingw32-beta-20131004-1-bin.zip
 pkg_dst=%boot_build%\mingw-get.zip
+pkg_cache=%boot_cache%\mingw-get.zip
