@@ -2,7 +2,6 @@
 
 if "%1"=="dist" goto dist_
 
-
 echo [stage0] begin of stage0
 
 call pkg/uninstall nodejs-bin || exit /b
@@ -29,14 +28,11 @@ echo [stage0] end of stage0
 call node %boot_sysroot%\toolchain\scripts\stage1.js "%boot_sysroot%\bin" "%boot_sysroot%\opt\nodejs" "%boot_sysroot%\opt\bin" "%boot_sysroot%\msys\1.0\bin"
 
 cd %boot_sysroot%\toolchain\
-
 exit /b
-
-
 
 :dist_
 
-echo [stage0] build a dist package
+echo Build a dist package
 
 call pkg/cache mingw64 || exit /b
 call pkg/cache msys || exit /b

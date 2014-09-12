@@ -19,14 +19,8 @@ git clone https://%location%@%pkg_src% %pkg_dst%
 if not %errorlevel% == 0 goto connect_
 
 endlocal
-
-
 exit /b
-
-
-
 
 :cache_
 
 call xcopy %pkg_cache% %pkg_dst% /s /e /h /i
-
