@@ -2,7 +2,6 @@
 
 ## Requirements
 
- - Install **7-Zip** amd64 in `Program Files`.
  - Install **Git** i386 in `Program Files (x86)`.
  - Clone the bootstrapper in a location **without space**.
 
@@ -14,7 +13,7 @@ By default, the bootstrapper is using the node.js base toolchain.
 
 
 ## Create a standalone distribution version
- 
+
 call `bootstrap.bat dist`
 
 After that, no need to have an Internet connection in order to install the toolchain (see previous point)
