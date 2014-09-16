@@ -16,10 +16,7 @@ call pkg/install rubyinstaller
 call pkg/remove ruby-boot
 call pkg/remove rubyinstaller
 
-
 exit /b
-
-
 
 :dist_
 
