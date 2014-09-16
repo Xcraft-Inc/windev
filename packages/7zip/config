@@ -1,0 +1,4 @@
+pkg_ver=920
+pkg_src=http://downloads.sourceforge.net/sevenzip/7za%pkg_ver%.zip
+pkg_dst=%boot_build%\7zip.zip
+pkg_cache=%boot_cache%\7zip.zip

@@ -6,6 +6,10 @@ call pkg/uninstall rubyinstaller
 call pkg/remove sysroot
 call pkg/install sysroot
 
+call pkg/remove 7zip || exit /b
+call pkg/get 7zip || exit /b
+call pkg/install 7zip || exit /b
+
 call pkg/get ruby-boot
 call pkg/install ruby-boot
 

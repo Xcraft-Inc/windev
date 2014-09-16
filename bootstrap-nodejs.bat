@@ -8,6 +8,10 @@ call pkg/uninstall nodejs-bin || exit /b
 call pkg/remove sysroot || exit /b
 call pkg/install sysroot || exit /b
 
+call pkg/remove 7zip || exit /b
+call pkg/get 7zip || exit /b
+call pkg/install 7zip || exit /b
+
 call pkg/get mingw64 || exit /b
 call pkg/install mingw64 || exit /b
 
@@ -34,6 +38,7 @@ exit /b
 
 echo Build a dist package
 
+call pkg/cache 7zip || exit /b
 call pkg/cache mingw64 || exit /b
 call pkg/cache msys || exit /b
 call pkg/cache jsmsix || exit /b

@@ -5,9 +5,6 @@ for %%F in ("%0") do set dirname=%%~dpF
 
 pushd %dirname%
 
-setlocal
-set PATH=C:\Program Files\7-Zip;%PATH%
-7z.exe x -y -o%2 %1
-endlocal
+%boot_build%/7zip/7za.exe x -y -o%2 %1
 
 popd
