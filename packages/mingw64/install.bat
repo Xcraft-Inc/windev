@@ -1,6 +1,6 @@
 @echo off
 
-call 7zip\decomp %pkg_dst% %boot_sysroot%
+call utils\7zip\decomp %pkg_dst% %boot_sysroot%
 del /Q %pkg_dst%
 
 SET src_folder=%boot_sysroot%\mingw64

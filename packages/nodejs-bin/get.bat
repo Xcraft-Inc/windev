@@ -2,7 +2,7 @@
 
 if exist %pkg_cache% goto cache_
 
-call web\get %pkg_src% %pkg_dst%
+call utils\web\get %pkg_src% %pkg_dst%
 exit /b
 
 :cache_

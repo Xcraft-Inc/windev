@@ -1,6 +1,6 @@
 @echo off
 
-call 7zip\decomp %pkg_dst% %boot_sysroot%\msys
+call utils\7zip\decomp %pkg_dst% %boot_sysroot%\msys
 call move %boot_sysroot%\msys\msys %boot_sysroot%\msys\%pkg_ver%
 
 del /Q %pkg_dst%
