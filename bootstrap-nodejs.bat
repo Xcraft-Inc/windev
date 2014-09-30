@@ -36,7 +36,7 @@ exit /b
 
 :dist_
 
-echo Build a dist package
+echo Building a dist package
 
 call pkg/cache 7zip || exit /b
 call pkg/cache mingw64 || exit /b
