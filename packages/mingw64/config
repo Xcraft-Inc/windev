@@ -1,4 +1,4 @@
-pkg_ver=4.8.3
+pkg_ver=4.9.2
 pkg_src=http://heanet.dl.sourceforge.net/project/mingw-w64/Toolchains%%%%20targetting%%%%20Win64/Personal%%%%20Builds/mingw-builds/%pkg_ver%/threads-win32/sjlj/x86_64-%pkg_ver%-release-win32-sjlj-rt_v3-rev0.7z
 pkg_dst=%boot_build%\mingw64.7z
 pkg_cache=%boot_cache%\mingw64.7z
