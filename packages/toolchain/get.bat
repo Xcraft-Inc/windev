@@ -15,7 +15,6 @@ if x%USERDOMAIN%==xWINDEV (
   set /p location=
 )
 
-:connect_
 git clone https://%location%@%pkg_src% %pkg_dst%
 if not %errorlevel% == 0 goto connect_
 
