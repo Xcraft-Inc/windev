@@ -28,7 +28,7 @@ toolchain (see previous point)
 The `packages` directory is used for the list of tools necessary in order
 to use the toolchain.
 
-The `utils` directory is contains some helpers.
+The `utils` directory contains some helpers.
 
 The `pkg` directory is the package "manager".
 
