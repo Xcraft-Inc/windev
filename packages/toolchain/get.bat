@@ -16,7 +16,7 @@ if x%USERDOMAIN%==xWINDEV (
 )
 
 git clone https://%location%@%pkg_src% %pkg_dst%
-if not %errorlevel% == 0 goto connect_
+if not [%errorlevel%]==[0] goto connect_
 
 endlocal
 exit /b
