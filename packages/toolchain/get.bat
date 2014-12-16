@@ -7,6 +7,7 @@ setlocal
 git config --global http.sslVerify false
 git config --global core.askpass "C:\Program Files (x86)\Git\libexec\git-core\git-gui--askpass"
 
+:connect_
 if x%USERDOMAIN%==xWINDEV (
   set location=gitlab-ci-token:%pkg_ci_token%
 ) else (
