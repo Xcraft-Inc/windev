@@ -1,4 +1,4 @@
-pkg_ver=v0.12.2
+pkg_ver=v0.12.4
 pkg_src=http://nodejs.org/dist/%pkg_ver%/x64/node-%pkg_ver%-x64.msi
 pkg_dst=%boot_build%\node.msi
 pkg_cache=%boot_cache%\node.msi
