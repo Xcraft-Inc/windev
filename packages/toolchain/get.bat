@@ -11,7 +11,7 @@ git config --global core.askpass "C:\Program Files (x86)\Git\libexec\git-core\gi
 echo Enter your git.epsitec.ch username:
 set /p location=
 
-git clone https://%location%@%pkg_src% %pkg_dst%
+git clone --recursive https://%location%@%pkg_src% %pkg_dst%
 if not [%errorlevel%]==[0] goto connect_
 
 endlocal
