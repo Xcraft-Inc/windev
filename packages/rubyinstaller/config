@@ -1,3 +1,0 @@
-pkg_ver=
-pkg_src=git://github.com/oneclick/rubyinstaller.git
-pkg_dst=%boot_build%

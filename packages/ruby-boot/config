@@ -1,4 +1,0 @@
-pkg_ver=2.0.0-p451
-pkg_src=http://dl.bintray.com/oneclick/rubyinstaller/ruby-%pkg_ver%-i386-mingw32.7z?direct
-pkg_dst=%boot_build%\ruby.7z
-pkg_cache=%boot_cache%\ruby.7z
