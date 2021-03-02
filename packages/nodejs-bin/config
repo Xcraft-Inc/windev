@@ -1,4 +1,4 @@
-pkg_ver=v8.11.2
+pkg_ver=v12.18.0
 pkg_src=https://nodejs.org/dist/%pkg_ver%/node-%pkg_ver%-x64.msi
 pkg_dst=%boot_build%\node.msi
 pkg_cache=%boot_cache%\node.msi
