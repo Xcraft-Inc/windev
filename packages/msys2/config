@@ -1,0 +1,4 @@
+pkg_ver=20210315
+pkg_src=https://owncloud.epsitec.ch/owncloud/index.php/s/Rqz9dtoGReKdTKx/download
+pkg_dst=%boot_build%\msys2.7z
+pkg_cache=%boot_cache%\msys2.7z
