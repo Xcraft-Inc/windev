@@ -16,6 +16,6 @@ echo   Call objShell.Run(cmd, 0, True)                      >> %boot_build%/unzi
 echo End If                                                 >> %boot_build%/unzip.vbs
 
 mkdir %boot_build%\7zip
-call wscript %boot_build%/unzip.vbs
+call cscript %boot_build%/unzip.vbs
 del /Q %boot_build%\unzip.vbs
 del /Q %pkg_dst%
