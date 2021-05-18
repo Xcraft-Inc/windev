@@ -9,6 +9,7 @@ echo Set objTarget = objShell.NameSpace(outFolder)          >> %boot_build%/unzi
 echo intOptions = 256                                       >> %boot_build%/unzip.vbs
 echo objTarget.CopyHere objSource, intOptions               >> %boot_build%/unzip.vbs
 echo If Err.Number ^<^> 0 Then                              >> %boot_build%/unzip.vbs
+echo   WScript.Echo "Unzip has failed, then try with PowerShell" >> %boot_build%/unzip.vbs
 echo   Set objShell = CreateObject("Wscript.shell")         >> %boot_build%/unzip.vbs
 echo   cmd = "powershell Expand-Archive -LiteralPath """ ^& strZipFile ^& """ -DestinationPath """ ^& outFolder ^& """" >> %boot_build%/unzip.vbs
 echo   Call objShell.Run(cmd, 0, True)                      >> %boot_build%/unzip.vbs
