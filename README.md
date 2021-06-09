@@ -1,9 +1,9 @@
-# Minimal bootstrapper for Windows Toolchain
+# Minimal bootstrapper for Xcraft Windows Toolchain
 
 ## Requirements
 
- - Install **Git** i386 in `Program Files (x86)`.
- - Clone the bootstrapper in a location **without space**.
+- Install **Git**.
+- Clone the bootstrapper in a location **without space**.
 
 ### Optional
 

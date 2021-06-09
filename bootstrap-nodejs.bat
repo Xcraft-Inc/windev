@@ -23,7 +23,7 @@ call pkg/get nodejs-bin || exit /b
 call pkg/install nodejs-bin || exit /b
 call pkg/env nodejs-bin || exit /b
 
-call pkg/get toolchain || exit /b
+call pkg/get xcraft || exit /b
 
 echo [stage0] end of stage0
 
@@ -33,9 +33,9 @@ if exist "%cmake_path%" set boot_cmake=%ProgramFiles(x86)%\CMake\bin
 set cmake_path=%ProgramFiles%\CMake\bin\cmake.exe
 if exist "%cmake_path%" set boot_cmake=%ProgramFiles(x86)%\CMake\bin
 
-call node %boot_sysroot%\toolchain\lib\xcraft\stage1.js "%boot_cmake%" "%boot_sysroot%\bin" "%boot_sysroot%\opt\nodejs" "%boot_sysroot%\opt\bin" "%boot_sysroot%\opt\msys64\usr\bin" "%boot_sysroot%\opt\msys64\mingw64\bin"
+call node %boot_sysroot%\xcraft\lib\xcraft\stage1.js "%boot_cmake%" "%boot_sysroot%\bin" "%boot_sysroot%\opt\nodejs" "%boot_sysroot%\opt\bin" "%boot_sysroot%\opt\msys64\usr\bin" "%boot_sysroot%\opt\msys64\mingw64\bin"
 
-cd %boot_sysroot%\toolchain\
+cd %boot_sysroot%\xcraft\
 exit /b
 
 :dist_
@@ -46,4 +46,4 @@ call pkg/cache 7zip || exit /b
 call pkg/cache msys2 || exit /b
 call pkg/cache jsmsix || exit /b
 call pkg/cache nodejs-bin || exit /b
-call pkg/cache toolchain || exit /b
+call pkg/cache xcraft || exit /b
