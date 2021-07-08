@@ -1,4 +1,0 @@
-pkg_ver=1.0
-pkg_src=https://netix.dl.sourceforge.net/project/mingw-w64/External%%%%20binary%%%%20packages%%%%20%%%%28Win64%%%%20hosted%%%%29/MSYS%%%%20%%%%2832-bit%%%%29/MSYS-20111123.zip
-pkg_dst=%boot_build%\msys.zip
-pkg_cache=%boot_cache%\msys.zip
