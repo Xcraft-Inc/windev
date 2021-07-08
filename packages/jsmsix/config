@@ -1,4 +1,0 @@
-pkg_ver=18a
-pkg_src=https://www.jsware.net/jsware/zips/jsmsix%pkg_ver%.zip
-pkg_dst=%boot_build%\jsmsix.zip
-pkg_cache=%boot_cache%\jsmsix.zip
