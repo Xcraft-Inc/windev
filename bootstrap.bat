@@ -17,10 +17,6 @@ call pkg/install 7zip || exit /b
 call pkg/get msys2 || exit /b
 call pkg/install msys2 || exit /b
 
-call pkg/remove jsmsix || exit /b
-call pkg/get jsmsix || exit /b
-call pkg/install jsmsix || exit /b
-
 call pkg/get nodejs-bin || exit /b
 call pkg/install nodejs-bin || exit /b
 call pkg/env nodejs-bin || exit /b
@@ -46,6 +42,5 @@ echo Building a dist package
 
 call pkg/cache 7zip || exit /b
 call pkg/cache msys2 || exit /b
-call pkg/cache jsmsix || exit /b
 call pkg/cache nodejs-bin || exit /b
 call pkg/cache xcraft || exit /b

@@ -1,4 +1,4 @@
-pkg_ver=v12.22.1
-pkg_src=https://nodejs.org/dist/%pkg_ver%/node-%pkg_ver%-x64.msi
-pkg_dst=%boot_build%\node.msi
-pkg_cache=%boot_cache%\node.msi
+pkg_ver=v12.22.3
+pkg_src=https://nodejs.org/download/release/%pkg_ver%/node-%pkg_ver%-win-x64.7z
+pkg_dst=%boot_build%\node.7z
+pkg_cache=%boot_cache%\node.7z

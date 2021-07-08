@@ -1,15 +1,10 @@
 @echo off
 
-mkdir "%boot_sysroot%\opt\nodejs"
-pushd "%boot_sysroot%\opt\nodejs"
-"%boot_build%\jsmsix\jsMSI Unpacker EXE\jsMSIx" "%pkg_dst%"
+call utils\7zip\decomp %pkg_dst% %boot_sysroot%\nodejs
+mkdir %boot_sysroot%\opt
+call move %boot_sysroot%\nodejs\node-%pkg_ver%-win-x64 %boot_sysroot%\opt\nodejs
 
-SET src_folder="%boot_build%\nodejs"
-SET tar_folder="%boot_sysroot%\opt\nodejs"
-
-mkdir "%APPDATA%\npm"
-
-for /f %%a IN ('dir %src_folder% /b') do move /Y %src_folder%\%%a %tar_folder%
-rd /S /Q %src_folder%
+del /Q %pkg_dst%
+rmdir /Q %boot_sysroot%\nodejs
 
 popd
