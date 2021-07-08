@@ -6,5 +6,3 @@ call move %boot_sysroot%\nodejs\node-%pkg_ver%-win-x64 %boot_sysroot%\opt\nodejs
 
 del /Q %pkg_dst%
 rmdir /Q %boot_sysroot%\nodejs
-
-popd
