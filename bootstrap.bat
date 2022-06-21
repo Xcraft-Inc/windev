@@ -31,7 +31,7 @@ if exist "%cmake_path%" set boot_cmake=%ProgramFiles(x86)%\CMake\bin
 set cmake_path=%ProgramFiles%\CMake\bin\cmake.exe
 if exist "%cmake_path%" set boot_cmake=%ProgramFiles(x86)%\CMake\bin
 
-call node %boot_sysroot%\xcraft\lib\xcraft\stage1.js "%boot_cmake%" "%boot_sysroot%\bin" "%boot_sysroot%\opt\nodejs" "%boot_sysroot%\opt\bin" "%boot_sysroot%\opt\msys64\usr\bin" "%boot_sysroot%\opt\msys64\mingw64\bin"
+call node %boot_sysroot%\xcraft\lib\xcraft\stage1.js "%boot_cmake%" "%boot_sysroot%\bin" "%boot_sysroot%\opt\nodejs" "%boot_sysroot%\opt\nodejs\node_modules\.bin" "%boot_sysroot%\opt\bin" "%boot_sysroot%\opt\msys64\usr\bin" "%boot_sysroot%\opt\msys64\mingw64\bin"
 
 cd %boot_sysroot%\xcraft\
 exit /b
