@@ -1,4 +1,4 @@
-pkg_ver=v14.19.1
+pkg_ver=v16.15.1
 pkg_src=https://nodejs.org/download/release/%pkg_ver%/node-%pkg_ver%-win-x64.7z
 pkg_dst=%boot_build%\node.7z
 pkg_cache=%boot_cache%\node.7z
