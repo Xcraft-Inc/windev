@@ -9,7 +9,7 @@ del /Q %boot_sysroot%\opt\nodejs\npm.cmd
 del /Q %boot_sysroot%\opt\nodejs\npx
 del /Q %boot_sysroot%\opt\nodejs\npx.cmd
 
-call %boot_sysroot%\opt\nodejs\node.exe %boot_sysroot%\opt\nodejs\node_modules\npm\bin\npm-cli.js install --prefix=%boot_sysroot%\opt\nodejs npm@8.19.4
+call %boot_sysroot%\opt\nodejs\node.exe %boot_sysroot%\opt\nodejs\node_modules\npm\bin\npm-cli.js install --prefix=%boot_sysroot%\opt\nodejs npm@9.8.1
 
 del /Q %pkg_dst%
 rmdir /Q %boot_sysroot%\nodejs
